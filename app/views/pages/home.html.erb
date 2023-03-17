@@ -1,1 +1,8 @@
 <h1>Wellcome</h1>
+
+<h3 class="mt-5">Day Calendar</h3>
+<%= month_calendar() do |date| %>
+  <div class="day">
+    <%= date.day %>
+  </div>
+<% end %>
